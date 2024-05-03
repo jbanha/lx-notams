@@ -1,0 +1,4 @@
+ipykernel
+pandas
+xgboost
+scikit-learn

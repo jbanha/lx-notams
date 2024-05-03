@@ -1,0 +1,7 @@
+venv*
+__pycache__*
+lx_notams/datasets/exports/*
+
+.vscode/*
+
+all_user_model.model

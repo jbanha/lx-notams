@@ -1,0 +1,77 @@
+code;sign;abbr
+AC;Withdrawn for maintenance;withdrawn maint
+AD;Available for daylight operation;avbl day ops
+AF;Flight checked and found reliable;fltck okay
+AG;Operating but ground checked only, awaiting flight check;opr awaiting fltck
+AH;Hours of service are now;hr ser
+AK;Resumed normal operations;okay
+AM;Military operations only;mil ops only
+AN;Available for night operation;avbl night ops
+AO;Operational;opr
+AP;Available, prior permission required;avbl ppr
+AR;Available on request;avbl o/r
+AS;Unserviceable;u/s
+AU;Not available;not avbl
+AW;Completely withdrawn;withdrawn
+AX;Previously promulgated shutdown has been cancelled;promulgated shutdown cnl
+CA;Activated;act
+CC;Completed;cmpl
+CD;Deactivated;deactivated
+CE;Erected;erected
+CF;Operating frequencyIES changed to;freq change
+CG;Downgraded to;downgraded to
+CH;Changed;changed
+CI;Identification or radio call sign changed to;ident change
+CL;Realigned;realigned
+CM;Displaced;displaced
+CO;Operating;opr
+CP;Operating on reduced power;opr reduced pwr
+CR;Temporarily replaced by;tempo rplcd by
+CS;Installed;installed
+CT;On test do not use;on test, do not use
+HA;Braking action is;ba is
+HB;Braking coefficient is;brkg coefficient is
+HC;Covered by compacted snow to depth of;cov compacted snow depth
+HD;Covered by dry snow to a depth of;cov dry snow depth
+HE;Covered by water to a depth of;cov water depth
+HF;Totally free of snow and ice;free of snow and ice
+HG;Grass cutting in progress;grass cutting
+HH;Hazard due to ;hazard due
+HI;Covered by ice;cov ice
+HJ;Launch planned;launch plan
+HK;Migration in progress;migration inpr
+HL;Snow clearance completed;snow clr cmpl
+HM;Marked by;marked by
+HN;Covered by wet snow or slush to a depth of;cov wet snow depth
+HO;Obscured by snow;obscured by snow
+HP;Snow clearance in progress;snow clr inpr
+HQ;Operation cancelled;opr cnl
+HR;Standing water;standing water
+HS;Sanding in progress;sanding
+HT;Approach according to signal area only;apch according signal area only
+HU;Launch in progress;launch inpr
+HV;Work completed;work cmpl
+HW;Work in progress;wip
+HX;Concentration of birds;bird concentration
+HY;Snow banks exist;snow banks hgt
+HZ;Covered by frozen ruts and ridges;cov frozen ruts and ridges
+LA;Operating on auxiliary power supply;opr aux pwr
+LB;Reserved for aircraft based therein;reserved for acft based therein
+LC;Closed;clsd
+LD;Unsafe;unsafe
+LE;Operating without auxiliary power supply;opr without aux pwr
+LF;Interference from;interference from
+LG;Operating without identification;opr without ident
+LH;Unserviceable for aircraft heavier than;u/s acft heavier than
+LI;Closed to IFR operations;clsd ifr ops
+LK;Operating as a fixed light;opr as f lgt
+LL;Usable for length of...and width of...;usable length/width
+LN;Closed to all night operations;clsd night ops
+LP;Prohibited to;prohibited to
+LR;Aircraft restricted to runways and taxiways;acft restricted to rwy and twy
+LS;Subject to interruption;subj intrp
+LT;Limited to;limited to
+LV;Closed to VFR operations;clsd vfr ops
+LW;Will take place;will take place
+LX;Operating but caution advised due to;opr but caution due
+KK; ;
