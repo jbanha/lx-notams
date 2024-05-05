@@ -26,11 +26,13 @@ class NotamProcessor:
                 
             m = re.match(v['regex'], field)
             
-            if 'type' in v:
+            if m is None:
+                yield {k: None}
+            elif 'type' in v:
                 result = v['type'](next((m[i] for i in v['indexes'] if m[i]), None))
                 if k in MAPS.keys():
                     yield from NotamProcessor._apply_regex_feature_map(result, MAPS[k])
-                yield {k, result}
+                yield {k: result}
             else:
                 joint_match = ' '.join([m[i] for i in v['indexes'] if m[i]])
                 if (k in MAPS.keys()) and joint_match:
