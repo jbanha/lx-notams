@@ -5,7 +5,7 @@ class DatasetImporter:
     @staticmethod
     def list_file(path: Path):
         with open(path, 'r') as f:
-            return f.readlines()
+            return [i.replace('\n','') for i in f.readlines()]
         
     @staticmethod
     def df_file(path: Path):

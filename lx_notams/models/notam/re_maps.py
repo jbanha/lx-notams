@@ -156,52 +156,52 @@ DATASET_MAP = {
         'path': datasets_path / '4lc_alternates.csv',
         'import_fn': DatasetImporter.list_file
     },
-    '4lc_2nd_alternates_com': {
-        'path': datasets_path / '4lc_2nd_alternates_com.csv',
+    '4lc_2nd_alternate_com': {
+        'path': datasets_path / '4lc_2nd_alternate_com.csv',
         'import_fn': DatasetImporter.list_file
     },
-    '4lc_2nd_alternates_fw': {
-        'path': datasets_path / '4lc_2nd_alternates_fw.csv',
+    '4lc_2nd_alternate_fw': {
+        'path': datasets_path / '4lc_2nd_alternate_fw.csv',
         'import_fn': DatasetImporter.list_file
         },
-    '4lc_3rd_alternates_com': {
-        'path': datasets_path / '4lc_3rd_alternates_com.csv',
+    '4lc_3rd_alternate_com': {
+        'path': datasets_path / '4lc_3rd_alternate_com.csv',
         'import_fn': DatasetImporter.list_file
     },
-    '4lc_3rd_alternates_fw': {
-        'path': datasets_path / '4lc_3rd_alternates_fw.csv',
+    '4lc_3rd_alternate_fw': {
+        'path': datasets_path / '4lc_3rd_alternate_fw.csv',
         'import_fn': DatasetImporter.list_file
     },
-    '4lc_4th_alternates_com': {
-        'path': datasets_path /  '4lc_4th_alternates_com.csv',
+    '4lc_4th_alternate_com': {
+        'path': datasets_path /  '4lc_4th_alternate_com.csv',
         'import_fn': DatasetImporter.list_file
     },
-    '4lc_4th_alternates_fw': {
-        'path': datasets_path /  '4lc_4th_alternates_fw.csv',
+    '4lc_4th_alternate_fw': {
+        'path': datasets_path /  '4lc_4th_alternate_fw.csv',
         'import_fn': DatasetImporter.list_file
     },
-    '4lc_5th_alternates_com': {
-        'path': datasets_path /  '4lc_5th_alternates_com.csv',
+    '4lc_5th_alternate_com': {
+        'path': datasets_path /  '4lc_5th_alternate_com.csv',
         'import_fn': DatasetImporter.list_file
     },
-    '4lc_5th_alternates_fw': {
-        'path': datasets_path /  '4lc_5th_alternates_fw.csv',
+    '4lc_5th_alternate_fw': {
+        'path': datasets_path /  '4lc_5th_alternate_fw.csv',
         'import_fn': DatasetImporter.list_file
     },
-    '4lc_6th_alternates_com': {
-        'path': datasets_path /  '4lc_6th_alternates_com.csv',
+    '4lc_6th_alternate_com': {
+        'path': datasets_path /  '4lc_6th_alternate_com.csv',
         'import_fn': DatasetImporter.list_file
     },
-    '4lc_6th_alternates_fw': {
-        'path': datasets_path /  '4lc_6th_alternates_fw.csv',
+    '4lc_6th_alternate_fw': {
+        'path': datasets_path /  '4lc_6th_alternate_fw.csv',
         'import_fn': DatasetImporter.list_file
     },
-    '4lc_7th_alternates_com': {
-        'path': datasets_path /  '4lc_7th_alternates_com.csv',
+    '4lc_7th_alternate_com': {
+        'path': datasets_path /  '4lc_7th_alternate_com.csv',
         'import_fn': DatasetImporter.list_file
     },
-    '4lc_7th_alternates_fw': {
-        'path': datasets_path /  '4lc_7th_alternates_fw.csv',
+    '4lc_7th_alternate_fw': {
+        'path': datasets_path /  '4lc_7th_alternate_fw.csv',
         'import_fn': DatasetImporter.list_file
     },
     'feature_names': {
@@ -210,6 +210,16 @@ DATASET_MAP = {
     },
     'key_ngrams': {
         'path': datasets_path / 'key_ngrams.csv',
+        'import_fn': DatasetImporter.df_file,
+        'rename_map': {}
+    },
+    'airlines_sampledataset': {
+        'path': datasets_path / 'airlines_sampledataset.csv',
+        'import_fn': DatasetImporter.df_file,
+        'rename_map': {}
+    },
+    'airports_sampledataset': {
+        'path': datasets_path / 'airports_sampledataset.csv',
         'import_fn': DatasetImporter.df_file,
         'rename_map': {}
     }
